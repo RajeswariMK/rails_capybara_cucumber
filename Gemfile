@@ -30,4 +30,8 @@ gem 'jquery-rails'
 group :development, :test do
 #   gem 'webrat'
     gem 'rspec-rails'
+    gem 'cucumber-rails'
+    gem 'capybara'
+    gem 'database_cleaner'
+    gem 'launchy'
 end
