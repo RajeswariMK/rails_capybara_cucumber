@@ -24,3 +24,10 @@ Feature: Manage Products
          And I go to the index page	    
          When I go to new product link
          Then I should have one product
+         
+    Scenario: Product Edit
+         Given I have list of products
+         And I go to the index page 
+         When I go to edit first product link     
+         Then I should update product
+         

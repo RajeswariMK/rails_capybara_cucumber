@@ -27,6 +27,11 @@ When /^I go to new product link$/ do
   visit new_product_path
 end
 
+When /^I go to edit first product link$/ do 
+  @product = Product.first
+  visit edit_product_path(@product)
+end
+
 Then /^I should see a product$/ do
 end
 
@@ -46,3 +51,12 @@ Then /^I should have one product$/ do
   click_button "Create Product"
   Product.count.should == 1
 end
+
+Then /^I should update product$/ do
+  @product = Product.first
+  fill_in "Title", :with => "Updated title"
+  click_button "Update Product"
+  page.should have_content "Product was successfully updated."
+end
+
+
