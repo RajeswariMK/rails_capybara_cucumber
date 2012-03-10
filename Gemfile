@@ -5,7 +5,8 @@ gem 'rails', '3.0.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'mysql2', '0.2.17'
+gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -26,6 +27,7 @@ gem 'mysql2'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
+group :development, :test do
 #   gem 'webrat'
-# end
+    gem 'rspec-rails'
+end
