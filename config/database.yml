@@ -35,7 +35,7 @@ production:
   database: rails_capybara_cucumber_production
   pool: 5
   username: root
-  password:
+  password: root
   socket: /var/run/mysqld/mysqld.sock
 
 cucumber:
