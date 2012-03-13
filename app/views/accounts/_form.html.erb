@@ -1,0 +1,58 @@
+<%= form_for(@account) do |f| %>
+  <% if @account.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@account.errors.count, "error") %> prohibited this account from being saved:</h2>
+
+      <ul>
+      <% @account.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user %><br />
+    <%= f.text_field :user %>
+  </div>
+  <div class="field">
+    <%= f.label :acc_type %><br />
+    <%= f.check_box :acc_type %>
+  </div>
+  <div class="field">
+    <%= f.label :area %><br />
+    <%= select_month(Date.today, :field_name => 'area', :prefix => 'account') %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+<script>
+	$(function() {
+		var availableTags = [
+			"John",
+			"Cat",
+			"Meow",
+			"Anitha",
+			"Cand",
+			"Cheela",
+			"Csour",
+			"Enite",
+			"Funke",
+			"Giant",
+			"Hasku",
+			"Jeeve",
+			"Jaya",
+			"Kerlin",
+			"Pusri",
+			"Panpiti",
+			"Pytihi",
+			"Ruvaw",
+			"Scend",
+			"Serne"
+		];
+		$("#account_user").autocomplete({
+			source: availableTags
+		});
+	});
+</script>
