@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProductsController DELETE destroy" tests="2" time="0.104776033" failures="0" errors="0" skipped="0">
+  <testcase name="ProductsController DELETE destroy destroys the requested product" time="0.048384225">
+  </testcase>
+  <testcase name="ProductsController DELETE destroy redirects to the products list" time="0.055991548">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="products/show" tests="1" time="0.009089988" failures="1" errors="0" skipped="0">
+  <testcase name="products/show renders attributes in &lt;p&gt;" time="0.008304833">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected &quot;&lt;p id=\&quot;notice\&quot;&gt;&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Title:&lt;/b&gt;\n  Title\n&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Price:&lt;/b&gt;\n  9\n&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Description:&lt;/b&gt;\n  MyText\n&lt;/p&gt;\n\n\n&lt;a href=\&quot;/products/1002/edit\&quot;&gt;Edit&lt;/a&gt; |\n&lt;a href=\&quot;/products\&quot;&gt;Back&lt;/a&gt;\n&quot; to match /9.99/">
+expected "&lt;p id=\"notice\"&gt;&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Title:&lt;/b&gt;\n  Title\n&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Price:&lt;/b&gt;\n  9\n&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Description:&lt;/b&gt;\n  MyText\n&lt;/p&gt;\n\n\n&lt;a href=\"/products/1002/edit\"&gt;Edit&lt;/a&gt; |\n&lt;a href=\"/products\"&gt;Back&lt;/a&gt;\n" to match /9.99/ (RSpec::Expectations::ExpectationNotMetError)
+expected "&lt;p id=\"notice\"&gt;&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Title:&lt;/b&gt;\n  Title\n&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Price:&lt;/b&gt;\n  9\n&lt;/p&gt;\n\n&lt;p&gt;\n  &lt;b&gt;Description:&lt;/b&gt;\n  MyText\n&lt;/p&gt;\n\n\n&lt;a href=\"/products/1002/edit\"&gt;Edit&lt;/a&gt; |\n&lt;a href=\"/products\"&gt;Back&lt;/a&gt;\n" to match /9.99/
+     ./spec/views/products/show.html.erb_spec.rb:17:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

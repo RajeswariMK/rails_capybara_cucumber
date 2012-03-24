@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountsController PUT update with valid params" tests="3" time="0.164587199" failures="0" errors="0" skipped="0">
+  <testcase name="AccountsController PUT update with valid params updates the requested account" time="0.052632321">
+  </testcase>
+  <testcase name="AccountsController PUT update with valid params assigns the requested account as @account" time="0.055759813">
+  </testcase>
+  <testcase name="AccountsController PUT update with valid params redirects to the account" time="0.05580563">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

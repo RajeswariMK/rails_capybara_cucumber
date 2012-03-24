@@ -1,0 +1,11 @@
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/accounts_controller.rb	43	Mass Assignment	General	Unprotected mass assignment near line 43: Account.new(params[:account])	High
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/products_controller.rb	42	Mass Assignment	General	Unprotected mass assignment near line 42: Product.new(params[:product])	High
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/accounts_controller.rb	62	Mass Assignment	General	Unprotected mass assignment near line 62: Account.find(params[:id]).update_attributes(params[:account])	High
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/products_controller.rb	61	Mass Assignment	General	Unprotected mass assignment near line 61: Product.find(params[:id]).update_attributes(params[:product])	High
+/home/rajeswari/git/rails_capybara_cucumber/Gemfile	0	SQL Injection	General	Versions before 3.0.10 have a vulnerability in quote_table_name: CVE-2011-2930	Medium
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/accounts_controller.rb	63	Redirect	General	Possible unprotected redirect near line 63: redirect_to(Account.find(params[:id]), :notice => "Account was successfully updated.")	Weak
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/products_controller.rb	62	Redirect	General	Possible unprotected redirect near line 62: redirect_to(Product.find(params[:id]), :notice => "Product was successfully updated.")	Weak
+/home/rajeswari/git/rails_capybara_cucumber/Gemfile	0	Cross Site Scripting	General	Rails 3.0.7 has a vulnerabilty in SafeBuffer. Upgrade to 3.0.12 or apply patches.	Medium
+/home/rajeswari/git/rails_capybara_cucumber/Gemfile	0	Cross Site Scripting	General	Versions before 3.0.11 have a vulnerability in translate helper.	Medium
+
+/home/rajeswari/git/rails_capybara_cucumber/app/controllers/account, product.rb	0	Attribute Restriction	Model	Mass assignment is not restricted using attr_accessible	High

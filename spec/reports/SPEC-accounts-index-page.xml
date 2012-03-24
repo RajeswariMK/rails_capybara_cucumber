@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="accounts index page" tests="1" time="6.221234905" failures="0" errors="0" skipped="0">
+  <testcase name="accounts index page should visit" time="0.60998888">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

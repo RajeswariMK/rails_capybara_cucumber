@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProductsController POST create with invalid params" tests="2" time="0.011411158" failures="0" errors="0" skipped="0">
+  <testcase name="ProductsController POST create with invalid params assigns a newly created but unsaved product as @product" time="0.005940352">
+  </testcase>
+  <testcase name="ProductsController POST create with invalid params re-renders the 'new' template" time="0.00510805">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

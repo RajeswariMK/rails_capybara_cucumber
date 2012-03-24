@@ -30,4 +30,10 @@ Feature: Manage Products
          And I go to the index page 
          When I go to edit first product link     
          Then I should update product
+    
+    @javascript     
+    Scenario: Autocomplete Test
+         Given I have list of products 
+         And I go to new product link
+         When I type in "Che" into autocomplete list "product_title" and I choose "Cheela"
          

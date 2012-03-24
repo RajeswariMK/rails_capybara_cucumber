@@ -27,3 +27,32 @@
     <%= f.submit %>
   </div>
 <% end %>
+<script>
+	$(function() {
+		var availableTags = [
+			"John",
+			"Cat",
+			"Meow",
+			"Anitha",
+			"Cand",
+			"Cheela",
+			"Csour",
+			"Enite",
+			"Funke",
+			"Giant",
+			"Hasku",
+			"Jeeve",
+			"Jaya",
+			"Kerlin",
+			"Pusri",
+			"Panpiti",
+			"Pytihi",
+			"Ruvaw",
+			"Scend",
+			"Serne"
+		];
+		$("#product_title").autocomplete({
+			source: availableTags
+		});
+	});
+</script>

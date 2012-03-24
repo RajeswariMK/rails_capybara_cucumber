@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountsController routing" tests="7" time="0.015137539" failures="0" errors="0" skipped="0">
+  <testcase name="AccountsController routing routes to #index" time="0.001789402">
+  </testcase>
+  <testcase name="AccountsController routing routes to #new" time="0.001382646">
+  </testcase>
+  <testcase name="AccountsController routing routes to #show" time="0.001709086">
+  </testcase>
+  <testcase name="AccountsController routing routes to #edit" time="0.001580718">
+  </testcase>
+  <testcase name="AccountsController routing routes to #create" time="0.001726547">
+  </testcase>
+  <testcase name="AccountsController routing routes to #update" time="0.001771874">
+  </testcase>
+  <testcase name="AccountsController routing routes to #destroy" time="0.002026236">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

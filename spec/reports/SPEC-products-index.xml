@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="products/index" tests="1" time="0.01754371" failures="0" errors="1" skipped="0">
+  <testcase name="products/index renders a list of products" time="0.016694441">
+    <failure type="MiniTest::Assertion" message="&lt;&quot;9.99&quot;&gt; expected but was...">
+&lt;"9.99"&gt; expected but was
+&lt;"Title"&gt;. (MiniTest::Assertion)
+MiniTest::Assertion:
+&lt;"9.99"&gt; expected but was
+&lt;"Title"&gt;.
+     (eval):2:in `assert'
+     ./spec/views/products/index.html.erb_spec.rb:24:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

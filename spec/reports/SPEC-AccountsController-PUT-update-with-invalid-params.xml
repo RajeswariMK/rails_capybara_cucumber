@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountsController PUT update with invalid params" tests="2" time="0.104908243" failures="0" errors="0" skipped="0">
+  <testcase name="AccountsController PUT update with invalid params assigns the account as @account" time="0.048771982">
+  </testcase>
+  <testcase name="AccountsController PUT update with invalid params re-renders the 'edit' template" time="0.055761981">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

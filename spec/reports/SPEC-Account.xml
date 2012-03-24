@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Account" tests="1" time="0.000324413" failures="0" errors="0" skipped="1">
+  <testcase name="Account add some examples to (or delete) /home/rajeswari/git/rails_capybara_cucumber/spec/models/account_spec.rb (PENDING)" time="0.000107137">
+    <skipped/>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

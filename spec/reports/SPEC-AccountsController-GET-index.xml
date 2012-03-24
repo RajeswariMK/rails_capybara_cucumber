@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountsController GET index" tests="1" time="0.107777115" failures="0" errors="0" skipped="0">
+  <testcase name="AccountsController GET index assigns all accounts as @accounts" time="0.107417363">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

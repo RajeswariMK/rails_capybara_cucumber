@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProductsController GET index" tests="1" time="0.055877915" failures="0" errors="0" skipped="0">
+  <testcase name="ProductsController GET index assigns all products as @products" time="0.055621668">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProductsController GET show" tests="1" time="0.050185786" failures="0" errors="0" skipped="0">
+  <testcase name="ProductsController GET show assigns the requested product as @product" time="0.049896224">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="accounts/edit" tests="1" time="0.018546701" failures="0" errors="1" skipped="0">
+  <testcase name="accounts/edit renders the edit account form" time="0.017722853">
+    <failure type="MiniTest::Assertion" message="Expected at least 1 element matching &quot;input#account_area&quot;, found 0.">
+Expected at least 1 element matching "input#account_area", found 0. (MiniTest::Assertion)
+MiniTest::Assertion:
+Expected at least 1 element matching "input#account_area", found 0.
+     (eval):2:in `assert'
+     ./spec/views/accounts/edit.html.erb_spec.rb:19:in `block (3 levels) in &lt;top (required)&gt;'
+     ./spec/views/accounts/edit.html.erb_spec.rb:16:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

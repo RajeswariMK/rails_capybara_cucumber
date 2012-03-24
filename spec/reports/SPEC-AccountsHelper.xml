@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountsHelper" tests="1" time="0.000547975" failures="0" errors="0" skipped="1">
+  <testcase name="AccountsHelper add some examples to (or delete) /home/rajeswari/git/rails_capybara_cucumber/spec/helpers/accounts_helper_spec.rb (PENDING)" time="8.4717e-05">
+    <skipped/>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

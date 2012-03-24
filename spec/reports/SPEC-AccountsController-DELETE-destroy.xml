@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountsController DELETE destroy" tests="2" time="0.149619165" failures="0" errors="0" skipped="0">
+  <testcase name="AccountsController DELETE destroy destroys the requested account" time="0.048986465">
+  </testcase>
+  <testcase name="AccountsController DELETE destroy redirects to the accounts list" time="0.10017063">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
