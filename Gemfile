@@ -9,12 +9,14 @@ gem 'mysql2', '0.2.17'
 gem 'jquery-rails'
 gem 'ci_reporter'
 
+
 group :development, :test do
     gem 'rspec-rails'
     gem 'cucumber-rails'
     gem 'capybara'
     gem 'database_cleaner'
     gem 'launchy'
+    gem "param_protected", "~> 2.0.0"
 end
 
 group :development do
