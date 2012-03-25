@@ -16,7 +16,7 @@ group :development, :test do
     gem 'capybara'
     gem 'database_cleaner'
     gem 'launchy'
-    gem "param_protected", "~> 2.0.0"
+
 end
 
 group :development do

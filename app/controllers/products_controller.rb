@@ -1,6 +1,7 @@
 class ProductsController < ApplicationController
   # GET /products
   # GET /products.xml
+  
   def index
     @products = Product.all
     respond_to do |format|
