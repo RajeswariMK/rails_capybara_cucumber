@@ -31,4 +31,6 @@ Feature: Manage Products
          When I go to edit first product link     
          Then I should update product
     
-   
+    Scenario: Products List
+    		Given I have list of products
+    		Then I should see a product
