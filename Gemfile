@@ -12,14 +12,18 @@ gem 'ci_reporter'
 
 group :development, :test do
     gem 'rspec-rails'
-    gem 'cucumber-rails'
     gem 'capybara'
     gem 'database_cleaner'
     gem 'launchy'
-    gem 'simplecov'
+    
 end
 
 group :development do
   gem 'guard-brakeman'
   gem 'guard-cucumber'
+end
+
+group :test do
+  gem 'simplecov'
+  gem 'cucumber-rails'
 end
